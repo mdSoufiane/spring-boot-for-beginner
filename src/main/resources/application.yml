@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/student_db
-    username: alibou
-    password: alibou
+    url: jdbc:postgresql://pg-16633cbc-soufiane-643e.g.aivencloud.com:10742/student_db
+    username: avnadmin
+    password: AVNS_nldZQkI5ZrO2qpeqqj1
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
